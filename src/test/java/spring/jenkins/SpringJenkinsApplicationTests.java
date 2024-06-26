@@ -10,12 +10,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class SpringJenkinsApplicationTests {
 
-//	Logger log= LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
-//
-//	@Test
-//	void contextLoads() {
-//		log.info("Test case executing");
-//		assertEquals(true,true);
-//	}
+	Logger log= LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+
+	@Test
+	void contextLoads() {
+		log.info("Test case executing");
+		assertEquals(true,true);
+	}
 
 }
